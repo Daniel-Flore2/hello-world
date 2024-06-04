@@ -10,9 +10,7 @@ app.get('api/v1/alumnos2',(req,res)=>{
   res.send('daniel 2');
 });
 
-app.get('api/v1/alumnos2',(req,res)=>{
-  res.send('daniel 2');
-});
+
 
 app.listen(port,()=>{
   console.log(`Server is running on http://localhost:${port}`)
