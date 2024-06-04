@@ -7,7 +7,7 @@ app.get('api/v1/welcome',(req,res)=>{
 });
 
 app.get('api/v1/alumnos',(req,res)=>{
-  res.send('daniel');
+  res.send('daniel 2');
 });
 
 
