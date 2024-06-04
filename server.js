@@ -6,7 +6,7 @@ app.get('api/v1/welcome',(req,res)=>{
   res.send('Hello,World!');
 });
 
-app.get('api/v1/alumno',(req,res)=>{
+app.get('api/v1/alumn',(req,res)=>{
   res.send('daniel');
 });
 
